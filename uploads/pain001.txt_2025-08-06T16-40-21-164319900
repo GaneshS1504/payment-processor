@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document>
+	<cstmrCdtTrfInitn>
+		<GrpHdr>
+			<MsgId>03ed51e6-7564-44d8-b946-9c636ff97095</MsgId>
+			<CreDtTm>2025-04-23</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<CtrlSum>1000.0</CtrlSum>
+			<InitgPty>
+				<Nm>Ganesh</Nm>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>2de7acb8-b6c5-46e9-a905-8a26a03dc839</PmtInfId>
+			<PmtMtd>SCT</PmtMtd>
+			<ReqdExctnDt>24-04-2025</ReqdExctnDt>
+			<Dbtr>
+				<Nm>Ganesh</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>DE89370400440532013000</IBAN>
+				</Id>
+			</DbtrAcct>
+			<CdtTrfTxInf>
+				<Amt>
+					<InstdAmt Ccy="EUR">1000</InstdAmt>
+				</Amt>
+				<Cdtr>
+					<Nm>Sharada</Nm>
+					<Address>
+						<Addr> No.522</Addr>
+						<StrtName>19thCross</StrtName>
+						<City>Mysuru</City>
+						<State>Kar</State>
+					</Address>
+				</Cdtr>
+				<CdtrAcct>
+					<Id>
+						<IBAN>DE89512108001245126199</IBAN>
+					</Id>
+				</CdtrAcct>
+				<RmtInf>
+					<Ustrd>INVOICE</Ustrd>
+				</RmtInf>
+				<CdtrAgt>
+					<FinInstnId>
+						<BIC>DEUTDEFF</BIC>
+					</FinInstnId>
+				</CdtrAgt>
+			</CdtTrfTxInf>
+			<CdtTrfTxInf>
+				<Amt>
+					<InstdAmt Ccy="EUR">10000.0</InstdAmt>
+				</Amt>
+				<Cdtr>
+					<Nm>Sharada1</Nm>
+					<Address>
+						<Addr> No.512</Addr>
+						<StrtName>18thCross</StrtName>
+						<City>Mysuru</City>
+						<State>Kar</State>
+					</Address>
+				</Cdtr>
+				<CdtrAcct>
+					<Id>
+						<IBAN>FR1412108001245126198</IBAN>
+					</Id>
+				</CdtrAcct>
+				<RmtInf>
+					<Ustrd>INVOICE</Ustrd>
+				</RmtInf>
+				<CdtrAgt>
+					<FinInstnId>
+						<BIC></BIC>
+					</FinInstnId>
+				</CdtrAgt>
+			</CdtTrfTxInf>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>MARKDEFF</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+		</PmtInf>
+	</cstmrCdtTrfInitn>
+</Document>

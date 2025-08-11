@@ -1,0 +1,12 @@
+<employees>
+    <employee>
+        <name>Ganesh</name>
+        <department>#ngineering</department>
+        <salary>75000</salary>
+    </employee>
+    <employee>
+        <name>Aarav</name>
+        <department>HR</department>
+        <salary>62000</salary>
+    </employee>
+</employees>
