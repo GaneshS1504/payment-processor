@@ -25,14 +25,8 @@ public class PaymentController {
 	@PostMapping("/upload")
 	public ResponseEntity<?> parseAndSaveXmlFile(@RequestParam("file") MultipartFile multipartFile) {
 
-		try {
-
-			List<TransactionSummary> res = xmlFileReadService.uploadFile(multipartFile);
-			return ResponseEntity.ok(res);
-
-		} catch (Exception e) {
-			return ResponseEntity.badRequest().body("Failed to process XML: " + e.getMessage());
-		}
+		List<TransactionSummary> res = xmlFileReadService.uploadFile(multipartFile);
+		return ResponseEntity.ok(res);
 
 	}
 

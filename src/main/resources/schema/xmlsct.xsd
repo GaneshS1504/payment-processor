@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="urn:iso:std:iso:20022:tech:xsd:pain.001.001.09"
+	xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.09"
+	elementFormDefault="qualified">
 
     <xs:element name="Document">
         <xs:complexType>

@@ -100,15 +100,7 @@ public class XmlFileRead {
 
 			return creditorTransactionIndormation.saveAll(txnData);
 
-		} catch (IOException e) {
-			System.err.println("I/O error during XML parsing: " + e.getMessage());
-			throw new RuntimeException("Failed to read the XML file", e);
-
-		} catch (Exception e) {
-			System.err.println("Unexpected error: " + e.getMessage());
-			throw new RuntimeException("Unexpected error occurred while processing XML", e);
-
-		}
+		} 
 
 	}
 
